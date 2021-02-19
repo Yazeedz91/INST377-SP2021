@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yazeed Sobahi's Lab 4</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <h1 style="text-align: center;">Yazeed Sobahi's Lab 4</h1>
+
+    <form action="/api" method="post">
+        <ul class="flex-outer">
+            <li>
+                <label for="fname" id="first-name">First Name</label>
+                <input type="text" id="fname" name="first-name">
+            </li>
+            <li>
+                <label for="lname" id="last-name">Last Name</label>
+                <input type="text" id="lname" name="last-name">
+            </li>
+            <li>
+                <label for="email-input" id="email">Email</label>
+                <input type="email" id="email-input" name="email">
+            </li>
+            <li>
+                <label for="phone-input" id="phone">Phone</label>
+                <input type="tel" id="phone-input" name="phone-number">
+            </li>
+            <li>
+                <label for="text-field-msg" id="text-field">Text Field</label>
+                <textarea name="message" id="text-field-msg" cols="35" rows="10" placeholder="Enter your message here"></textarea>
+            </li>
+            <li>
+                <label for="age" id="age">Age</label>
+                <ul class="flex-inner">
+                    <li>  
+                      <input type="checkbox" name="18-35" id="18-35">
+                      <label for="18-35" id="18-35-check">18-35</label>  
+                    </li>
+                    <li>
+                        <input type="checkbox" name="35-50" id="35-50">
+                        <label for="35-50" id="35-50-check">35-50</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="50-65" id="50-65">
+                        <label for="50-65" id="50-65-check">50-65</label>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <button name="submit-button" id="sbutton" type="submit">SUBMIT FORM</button>
+            </li>
+        </ul>
+    </form>
+    <script src="./server.js"></script>
+</body>
+</html>
