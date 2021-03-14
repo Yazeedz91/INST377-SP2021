@@ -1,0 +1,38 @@
+body {
+  background: lightpink;
+}
+
+.container {
+  width: 960px;
+  background-color: lightpink;
+}
+
+.box {
+  margin: 15px;
+}
+
+.input {
+  margin: 10px;
+  width: 500px;
+}
+
+.label {
+  margin: 10px;
+}
+
+.button.is-primary {
+  color: black;
+  background-color: lightblue;
+  margin-top: 10px;
+}
+
+.rest-name {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.gradient {
+  background-image: linear-gradient(white, lightblue);
+}
